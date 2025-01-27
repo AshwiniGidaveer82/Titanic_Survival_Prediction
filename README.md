@@ -1,3 +1,5 @@
+**Titanic_Survival_Prediction**
+-------------------------------------------------
 Internship Task to predict Titanic passenger survival using logistic regression. Certainly, here's a more detailed README.md file for your Titanic Survival Prediction project on GitHub:
 
 **Overview**
@@ -70,9 +72,13 @@ A logistic regression model is constructed to predict passenger survival. Logist
 The model's performance is assessed using various metrics, including:
 
 **Accuracy:** The proportion of correct predictions.
+
 **Precision:** The ability of the model to correctly identify positive cases.
+
 **Recall:** The ability of the model to capture all positive cases.
+
 **F1-Score:** The harmonic mean of precision and recall.
+
 **Classification Report:** A comprehensive report displaying precision, recall, and F1-Score for each class (Survived and Not Survived).
 
 **Contributing**
@@ -80,6 +86,9 @@ The model's performance is assessed using various metrics, including:
 Contributions to this project are welcome. If you would like to contribute, please follow these guidelines:
 
 Fork the repository.
+
 Create a new branch for your feature or bug fix.
+
 Make your changes and test thoroughly.
+
 Create a pull request to merge your changes into the main branch.
