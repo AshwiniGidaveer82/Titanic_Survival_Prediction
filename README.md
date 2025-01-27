@@ -3,34 +3,44 @@
 Internship Task to predict Titanic passenger survival using logistic regression. Certainly, here's a more detailed README.md file for your Titanic Survival Prediction project on GitHub:
 
 **Overview**
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------
 This repository contains a comprehensive machine learning project for predicting passenger survival on the Titanic. We use the Titanic dataset, a well-known dataset in the data science community, to build a predictive model. The primary objective is to determine the likelihood of a passenger surviving or not during the tragic Titanic disaster based on various passenger attributes.
 
 **Table of Contents**
 ------------------------------
-Project Overview
+**Project Overview
 Dataset Description
 Getting Started
 Data Preprocessing
 Exploratory Data Analysis (EDA)
 Model Building
 Evaluation
-Contributing
+Contributing**
 
 **Dataset Description**
 
 The Titanic dataset is well-documented and includes the following columns:
 ----------------------------------------------------
 **PassengerId:** A unique identifier for each passenger.
+
 **Survived:** Target variable (0 = Not Survived, 1 = Survived).
+
 **Pclass:** Passenger class (1st, 2nd, or 3rd class).
+
 **Name:** Passenger's name.
+
 **Sex:** Gender of the passenger.
+
 **Age:** Age of the passenger.
+
 **SibSp:** Number of siblings/spouses aboard the Titanic.
+
 **Parch:** Number of parents/children aboard the Titanic.
+
 **Ticket:** Ticket number.
+
 **Cabin:** Cabin number.
+
 **Embarked:** Port where the passenger boarded (C = Cherbourg, Q = Queenstown, S = Southampton).
 
 **Getting Started**
@@ -56,6 +66,7 @@ Handling missing values, including imputing missing ages and embarked locations.
 Encoding categorical variables, such as gender and embarked location, into numerical format.
 Feature engineering to create new features, such as "FamilySize" by combining "SibSp" and "Parch."
 Removing unnecessary columns like "PassengerId," "Name," "Ticket," "Cabin," and "Fare."
+
 Exploratory Data Analysis (EDA)
 Exploratory Data Analysis (EDA) is an essential phase to gain insights into the dataset. The following visualizations and analyses are conducted:
 
