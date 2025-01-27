@@ -67,7 +67,8 @@ Encoding categorical variables, such as gender and embarked location, into numer
 Feature engineering to create new features, such as "FamilySize" by combining "SibSp" and "Parch."
 Removing unnecessary columns like "PassengerId," "Name," "Ticket," "Cabin," and "Fare."
 
-Exploratory Data Analysis (EDA)
+**Exploratory Data Analysis (EDA)**
+----------------------------------------
 Exploratory Data Analysis (EDA) is an essential phase to gain insights into the dataset. The following visualizations and analyses are conducted:
 
 Distribution of survival to understand the class imbalance.
@@ -75,7 +76,9 @@ Age distribution to observe the age demographics of passengers.
 Survival by passenger class to identify class-based survival trends.
 Survival by gender to explore gender-based survival trends.
 A correlation heatmap to assess feature relationships.
-Model Building
+
+**Model Building**
+--------------------------------------------
 A logistic regression model is constructed to predict passenger survival. Logistic regression is chosen for its simplicity and interpretability, making it a suitable starting point for this binary classification problem. However, alternative machine learning algorithms could be explored for comparison.
 
 **Evaluation**
